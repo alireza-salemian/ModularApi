@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorCode2.AspNetCore.Modules.Abstrctions", "DoctorCode.AspNetCore.Modules.Abstrctions\DoctorCode2.AspNetCore.Modules.Abstrctions.csproj", "{9EF44449-B3A5-44F3-A21B-676DEAFA7F31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorCode2.AspNetCore.Modules", "DoctorCode.AspNetCore.Modules\DoctorCode2.AspNetCore.Modules.csproj", "{BB2F2F43-6BFB-46B0-BA5B-D45B9A07F2FF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{02A985C3-BE37-465C-91A6-6B8223318AED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoctorCode.TestModule", "Modules\DoctorCode.TestModule\DoctorCode.TestModule.csproj", "{F3296F71-A801-47FB-A452-B919052377CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{8725E713-CC07-42AB-90A7-318D944A65FC}"
+	ProjectSection(SolutionItems) = preProject
+		build\zip.props = build\zip.props
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DoctorCode.ModularApi", "DoctorCode.ModularApi\DoctorCode.ModularApi.csproj", "{F544C6D2-BE5C-49D2-B12C-1224AE6B0DFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_NoPack|Any CPU = Debug_NoPack|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EF44449-B3A5-44F3-A21B-676DEAFA7F31}.Debug_NoPack|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF44449-B3A5-44F3-A21B-676DEAFA7F31}.Debug_NoPack|Any CPU.Build.0 = Debug|Any CPU
+		{9EF44449-B3A5-44F3-A21B-676DEAFA7F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF44449-B3A5-44F3-A21B-676DEAFA7F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF44449-B3A5-44F3-A21B-676DEAFA7F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF44449-B3A5-44F3-A21B-676DEAFA7F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB2F2F43-6BFB-46B0-BA5B-D45B9A07F2FF}.Debug_NoPack|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2F2F43-6BFB-46B0-BA5B-D45B9A07F2FF}.Debug_NoPack|Any CPU.Build.0 = Debug|Any CPU
+		{BB2F2F43-6BFB-46B0-BA5B-D45B9A07F2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2F2F43-6BFB-46B0-BA5B-D45B9A07F2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB2F2F43-6BFB-46B0-BA5B-D45B9A07F2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB2F2F43-6BFB-46B0-BA5B-D45B9A07F2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3296F71-A801-47FB-A452-B919052377CB}.Debug_NoPack|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3296F71-A801-47FB-A452-B919052377CB}.Debug_NoPack|Any CPU.Build.0 = Debug|Any CPU
+		{F3296F71-A801-47FB-A452-B919052377CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3296F71-A801-47FB-A452-B919052377CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3296F71-A801-47FB-A452-B919052377CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3296F71-A801-47FB-A452-B919052377CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F544C6D2-BE5C-49D2-B12C-1224AE6B0DFB}.Debug_NoPack|Any CPU.ActiveCfg = Debug|Any CPU
+		{F544C6D2-BE5C-49D2-B12C-1224AE6B0DFB}.Debug_NoPack|Any CPU.Build.0 = Debug|Any CPU
+		{F544C6D2-BE5C-49D2-B12C-1224AE6B0DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F544C6D2-BE5C-49D2-B12C-1224AE6B0DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F544C6D2-BE5C-49D2-B12C-1224AE6B0DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F544C6D2-BE5C-49D2-B12C-1224AE6B0DFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F3296F71-A801-47FB-A452-B919052377CB} = {02A985C3-BE37-465C-91A6-6B8223318AED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B653DCCD-8033-42CB-B397-5EB8E016B277}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\build\zip.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DoctorCode2.AspNetCore.Modules.Abstrctions" Version="1.0.0">
+      <Private>true</Private>
+      <PrivateAssets>runtime</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>
